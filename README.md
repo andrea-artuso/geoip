@@ -3,8 +3,8 @@ A simple bash script to view the basic geographical information about a public I
 
 ## Installation
 > 1. Close this repository `git clone https://github.com/andrea-artuso/geoip.git`
-> 2. Copy the bash script to the `/opt` directory with the command `cp geoip/geoip.sh /opt/geoip`
-> 3. Add the `/opt` directory to PATH so you can just issue `geoip` to run the script
+> 2. Copy the bash script to the `/usr/bin` directory with the command `cp geoip/geoip.sh /usr/bin/geoip`
+> 3. Add the `/usr/bin` directory to PATH so you can just issue `geoip` to run the script
 
 ## Usage
 **Default mode**
