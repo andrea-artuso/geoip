@@ -5,8 +5,8 @@ regex_ipv4="^((25[0-5]|(2[0-4]|1\d|[1-9]|)\d)\.?\b){4}$"
 help_menu () {
 	echo "Usage: geoip [OPTIONS] <ip_address>"
 	echo "Options:"
-	echo "  -R,  --raw\tShows the output in JSON format"
-	echo "  --help\tShows this menu"
+	printf "  -R,  --raw\tShows the output in JSON format\n"
+	printf "  --help\tShows this menu\n"
 }
 
 ip_info_raw () {
